@@ -46,6 +46,20 @@ input-file:
 - Microsoft.StreamAnalytics/stable/2016-03-01/subscriptions.json
 ```
 
+### Tag: test-all-api-versions
+
+These settings apply only when `--tag=test-all-api-versions` is specified on the command line.
+
+``` yaml $(tag) == 'test-all-api-versions'
+input-file:
+- Microsoft.StreamAnalytics/preview/2020-03-01-preview/cluster.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/streamingjobs.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/inputs.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/outputs.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/transformations.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/functions.json
+- Microsoft.StreamAnalytics/stable/2016-03-01/subscriptions.json
+```
 
 ---
 # Code Generation

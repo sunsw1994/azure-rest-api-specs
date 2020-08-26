@@ -1,0 +1,28 @@
+{
+    "location": "West US",
+    "sku": {
+        "name": "Default",
+        "capacity": 36
+    },
+    "tags":{
+        "shangwei":"asa"
+    },
+    "id": "/subscriptions/113d0adc-1017-40e9-84ff-763f52896cc2/resourceGroups/shangwei-asa/providers/Microsoft.StreamAnalytics/clusters/shangwei-asa-cluster-postmanwithtag",
+    "name": "shangwei-asa-cluster-postmanwithtag",
+    "type": "Microsoft.StreamAnalytics/clusters",
+    "location": "West US",
+    "tags": {
+        "shangwei": "asa"
+    },
+    "properties": {
+        "createdDate": "2020-08-24T08:13:57.12Z",
+        "clusterId": "bf87ea1a-6023-4c87-a9e6-f8378e0064f2",
+        "provisioningState": "InProgress",
+        "capacityAllocated": 0,
+        "capacityAssigned": 0
+    },
+    "sku": {
+        "name": "Default",
+        "capacity": 36
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "value": [
+        {
+            "id": "/subscriptions/113d0adc-1017-40e9-84ff-763f52896cc2/resourceGroups/shangwei-asa/providers/Microsoft.StreamAnalytics/clusters/shangwei-asa-cluster-postman",
+            "name": "shangwei-asa-cluster-postman",
+            "type": "Microsoft.StreamAnalytics/clusters",
+            "location": "West US",
+            "properties": {
+                "createdDate": "2020-08-24T08:07:04.04Z",
+                "clusterId": "7a85a188-d780-4231-ad8b-0907bf0241e6",
+                "provisioningState": "Succeeded",
+                "capacityAllocated": 0,
+                "capacityAssigned": 0
+            },
+            "sku": {
+                "name": "Default",
+                "capacity": 36
+            },
+            "etag": "f6bf1e66-38af-43ec-b438-fc6fcb190cc4"
+        },
+        {
+            "id": "/subscriptions/113d0adc-1017-40e9-84ff-763f52896cc2/resourceGroups/shangwei-asa/providers/Microsoft.StreamAnalytics/clusters/shangwei-asa-cluster",
+            "name": "shangwei-asa-cluster",
+            "type": "Microsoft.StreamAnalytics/clusters",
+            "location": "West US",
+            "properties": {
+                "createdDate": "2020-08-24T07:27:17.903Z",
+                "clusterId": "28a50744-0d0d-429c-b482-21094572e75a",
+                "provisioningState": "Succeeded",
+                "capacityAllocated": 0,
+                "capacityAssigned": 0
+            },
+            "sku": {
+                "name": "Default",
+                "capacity": 36
+            },
+            "etag": "a5da81cc-7072-45aa-8801-78b19afa3953"
+        },
+        {
+            "id": "/subscriptions/113d0adc-1017-40e9-84ff-763f52896cc2/resourceGroups/shangwei-asa/providers/Microsoft.StreamAnalytics/clusters/shangwei-asa-cluster-postmanwithtag",
+            "name": "shangwei-asa-cluster-postmanwithtag",
+            "type": "Microsoft.StreamAnalytics/clusters",
+            "location": "West US",
+            "tags": {
+                "shangwei": "asanew"
+            },
+            "properties": {
+                "createdDate": "2020-08-24T08:13:57.12Z",
+                "clusterId": "bf87ea1a-6023-4c87-a9e6-f8378e0064f2",
+                "provisioningState": "Succeeded",
+                "capacityAllocated": 0,
+                "capacityAssigned": 0
+            },
+            "sku": {
+                "name": "Default",
+                "capacity": 36
+            },
+            "etag": "52d5e6d8-873b-4cd8-9553-0e867be936f4"
+        }
+    ],
+    "nextLink": null
+}
