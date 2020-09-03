@@ -421,7 +421,10 @@
           "type": "string",
           "description": "The current entity tag for the input. This is an opaque string. You can use it to detect whether the resource has changed between requests. You can also use it in the If-Match or If-None-Match headers for write operations for optimistic concurrency."
         }
-      }
+      },
+      "required":[
+        "type"
+      ]
     },
     "StreamInputProperties": {
       "description": "The properties that are associated with an input containing stream data.",
@@ -461,7 +464,10 @@
           "type": "string",
           "description": "Indicates the type of input data source containing stream data. Required on PUT (CreateOrReplace) requests."
         }
-      }
+      },
+      "required": [
+        "type"
+      ]
     },
     "BlobStreamInputDataSource": {
       "description": "Describes a blob input data source that contains stream data.",
@@ -573,7 +579,10 @@
           "type": "string",
           "description": "Indicates the type of input data source containing reference data. Required on PUT (CreateOrReplace) requests."
         }
-      }
+      },
+      "required":[
+        "type"
+      ]
     },
     "BlobReferenceInputDataSource": {
       "description": "Describes a blob input data source that contains reference data.",
@@ -731,7 +740,10 @@
           "type": "string",
           "description": "Indicates the type of serialization that the input or output uses. Required on PUT (CreateOrReplace) requests."
         }
-      }
+      },
+      "required":[
+        "type"
+      ]
     },
     "CsvSerialization": {
       "description": "Describes how data from an input is serialized or how data is serialized when written to an output in CSV format.",
